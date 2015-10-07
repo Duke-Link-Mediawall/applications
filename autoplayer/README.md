@@ -10,8 +10,10 @@ Load custom configuration file via load_config.xml, edit path and filename desir
 
 A configuration file created for this application, with accompanied media, will play unaltered on the Link Mediawall.
 
+Read the enclosed readme for more complete instructions on how to use/configure Autoplayer
+
 # Demo
 Included configuration file and media demonstrate a simple poem slideshow with random audio accompaniment and video/image illustration. Demo media in public domain via Prelinger Archive and Freesound.org.
 
 # Link Mediawall
-The aspect ratio of the Mediawall is 3.555:1.  Autoplayer may be configured with a tile resolution of 6hx3v, with an overall pixel resolution of 3840 x 1080.  For demoing on your desktop, us a smaller resolution, with the same aspect ratio as the wall, for example 1920x540, which is 1/4 scale of the wall.
+The aspect ratio of the Mediawall is 3.555:1.  Autoplayer may be configured with a tile resolution of 6hx3v, with an overall pixel resolution of 3840 x 1080.  For demoing on your desktop, use a smaller resolution, with the same aspect ratio as the wall, for example 1920x540, which is 1/4 scale of the wall.
