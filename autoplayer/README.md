@@ -10,7 +10,7 @@ Load custom configuration file via load_config.xml, edit path and filename desir
 
 A configuration file created for this application, with accompanied media, will play unaltered on the Link Mediawall.
 
-Read the enclosed readme for more complete instructions on how to use/configure Autoplayer
+Read the enclosed readme for more complete instructions on how to use/configure Autoplayer.
 
 # Demo
 Included configuration file and media demonstrate a simple poem slideshow with random audio accompaniment and video/image illustration. Demo media in public domain via Prelinger Archive and Freesound.org.
