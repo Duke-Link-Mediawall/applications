@@ -1,6 +1,8 @@
-var portNumber = 8080;
+var portNumber = 8000;
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+var DEBUG_LOG = false;
 
 var connect = require('connect');
 var server = connect.createServer(connect.static(__dirname)).listen(portNumber);
@@ -10,17 +12,15 @@ io.set('log level', 1);
 
 io.sockets.on('connection', function (client) {
 
-   // connectCounter++;
-   // console.log('client connected ('+ client.id +'), total clients: ' + connectCounter);
+   if (DEBUG_LOG) {connectCounter++; console.log('client connected ('+ client.id +'), total clients: ' + connectCounter);}
     
     client.on('onSelectUpdate', function (data) {
-        //console.log(client.id+' -->'); console.log(data);
+        if (DEBUG_LOG) {console.log(client.id+' --> '); console.log(data);}
         io.sockets.emit('onSelectUpdate', data);
     });
     
     client.on('disconnect', function () {
-        //connectCounter--;
-        //console.log('client disconnected, total clients: ' + connectCounter);
+        if (DEBUG_LOG) {connectCounter--; console.log('client disconnected, total clients: ' + connectCounter);}
     });
 });
 
