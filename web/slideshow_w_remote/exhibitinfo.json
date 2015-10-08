@@ -1,0 +1,8 @@
+{
+	"title":"Link Mediawall Slideshow w/ Remote Client",
+	"slide_advance_time": 8,
+	"title_on_duration": 10, 
+	"title_display_interval": 90,
+	"fade_in_out_time": 5,
+	"overlay_timeout": 120		
+}

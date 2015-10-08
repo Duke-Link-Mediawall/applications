@@ -1,0 +1,50 @@
+{"slides":[
+    	{	
+    	"filename":"156.jpg", 
+    	"title":"Ceiling light through a drinking glass", 
+    	"author":"Elliott Hagedorn", 
+    	"caption":"Ceiling light through a drinking glass.  Image was taken by placing the camera lens inside of a drinking glass and pointing it towards a ceiling light in the room."
+    	},
+    	{
+    	"filename":"broken.jpg",
+    	"title":"Broken: dynamic fracture in an expanding ring", 
+    	"author":"John Dolbow", 
+    	"caption":"Broken: Embedded finite element simulation of dynamic fracture in an expanding ring.  "
+    	},
+    	{
+    	"filename":"fluorescent_foam.jpg",
+    	"title":"UV-light exposed fluorescent foam bubble",
+    	"author":"Joshua Dijksman", 
+    	"caption":"This is an image of a layer of UV-light exposed fluorescent foam bubbles in a petri dish, squeezed between a liquid and the confining lid. Such monolayers of bubbles are used as a model system to study the intricate and poorly understood mechanical behavior of disordered systems like sand, mayonnaise and, yes, shaving foam."
+    	},
+    	{
+    	"filename":"force_network.jpg",
+    	"title":"Granular materials carry weight",
+    	"author":"Jie Ren",
+    	"caption":"Granular materials, such as sand, behave in a surprising way: they can flow like a liquid, yet carry weight like a solid. We employ photographic techniques to study this behavior in a two dimensional model system: we use transparent disks made of photo-elastic material that changes its optical properties when subjected to a force."
+    	},
+    	{
+    	"filename":"gw_agave.jpg",
+    	"title":"Agave Growth and Development",
+    	"author":"Gwendolyn Williams",
+    	"caption":"This species of agave displays ghostly impressions on its leaves, reflecting its pattern of growth and development. Photographed in the mountains of Tamaulipas, Mexico."
+    	},
+    	{
+    	"filename":"p1010062.jpg",
+    	"title":"Rain Illumination",
+    	"author":"Lola Kelleher", 
+    	"caption":"The rain illuminates moving traffic during a torrential storm, from behind a car window. The combination of movement, light,and reflection created the illusion of an Aurora Borealis-like sky. The rainstorm which was once a dreary misfortune became a sublime marvel with the lens of my camera."
+    	},
+    	{
+    	"filename":"popcorn_final.jpg",
+    	"title":"Mathematics of a popcorn flake",
+    	"author":"Martin Hautefeuille",
+    	"caption":"Mathematics of a popcorn flake"
+    	},
+    	{
+    	"filename":"ufo_final.jpg",
+    	"title":"U.F.O. (Unidentified Floating Object)",
+    	"author":"Yuejun Zhao",
+    	"caption":"U.F.O. (Unidentified Floating Object): On a flat hydrophobic surface subject to a linear temperature gradient, a droplet of water-heptanol mixture takes on the shape of an “UFO”. The binary droplet is driven by interfacial stresses toward the colder region, leaving a wake behind."
+    	}
+]}

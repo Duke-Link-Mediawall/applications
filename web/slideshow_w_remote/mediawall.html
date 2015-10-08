@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 	<meta charset=utf-8 />
+ 	<title></title>
+	<link rel="stylesheet" href="css/mediawall.css" type="text/css"/>
+    <script type="text/javascript" src="js/libs/jquery/jquery-1.9.1.min.js"></script>
+ 	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+	<script type="text/javascript" src="mediawall.js"></script>
+</head>
+<body>
+	<div id="left">
+		<div id="label_left" class="label"><div class="title"></div><div class="author"></div><div class="caption"></div><div class="bkgrd"></div></div>
+		<canvas id="canvas_left"></canvas>
+	</div>
+	<div id="right">
+		<div id="label_right" class="label"><div class="title"></div><div class="author"></div><div class="caption"></div><div class="bkgrd"></div></div>
+		<canvas id="canvas_right"></canvas>
+	</div>
+	<div id="full">
+		<canvas id="canvas_full"></canvas>
+	</div>
+	<div id="overlay_left">
+		<div id="label_overlay_left" class="label"><div class="title"></div><div class="author"></div><div class="caption"></div><div class="bkgrd"></div></div>
+		<canvas id="canvas_overlay_left"></canvas>
+	</div>
+	<div id="overlay_right">
+		<div id="label_overlay_right" class="label"><div class="title"></div><div class="author"></div><div class="caption"></div><div class="bkgrd"></div></div>
+		<canvas id="canvas_overlay_right"></canvas>
+	</div>
+</body>
+</html>
