@@ -5,6 +5,6 @@
 	"title_display_interval": 90,
 	"fade_in_out_time": 5,
 	"overlay_timeout": 120,
-	"remoteclient_url": "https://github.com/Duke-Link-Mediawall/applications/tree/master/web/slideshow_w_remote",
+	"remoteclient_url": "http://localhost:8000/slideshow_w_remote/remoteclient.html",
 	"qr_code_on": true
 }
