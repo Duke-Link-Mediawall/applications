@@ -12,7 +12,7 @@ You should install the node.js software on your local machine or a preferred ser
 
 After the installation of node.js is complete, download the node_js_http_server folder and place it somewhere in your machine's' directories. Place the slideshow_w_remote directory within the node_js_http_server directory. Run the http_server.js script, via the terminal window.  Navigate to the http server directory and type "node http_server.js &" (the "&" symbol runs script process in the background). 
 
-Open two browser windows, point one to "http://localhost:8000/slideshow_w_remote/mediawall.html" and the other to "http://localhost:8000/slideshow_w_remote/remoteclient.html".
+Open two browser windows, point one to "http://localhost:8000/slideshow_w_remote/mediawall.html" and the other to "http://localhost:8000/slideshow_w_remote/remoteclient.html". Substitute a different URL for "localhost", if your files are being hosted on a remote server.
 
 You can edit the http server's network port number, via the http_server.js script file.  By default it is set to port 8000. There is a chance that you will need to edit your machines firewall settings to open this port.
 
