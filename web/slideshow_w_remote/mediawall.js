@@ -5,13 +5,14 @@ var socket = io.connect();
 var 	CURRENT_DIR = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/')) + "/";
 var		SLIDES_FILE_PATH = CURRENT_DIR + 'slides/';
 var		TITLES_FILE_PATH = CURRENT_DIR + 'titles/';
-var		FRAME_RATE = 60;
+var		FRAME_RATE = 30;
 var		ALPHA_TRANSITION = 5;  //seconds to fade in/out
 var		ALPHA_STEP = 1/(ALPHA_TRANSITION * FRAME_RATE); //alpha change each frame when fade in/out
 var		SLIDE_ADVANCE_INTERVAL = 8; //seconds between alternating slides
 var		TITLE_DISPLAY_ON = 10; //seconds to display title
 var		TITLE_DISPLAY_INTERVAL = 60; //seconds between titles
 var		OVERLAY_TIMEOUT = 120; //seconds of inactivity before slideshow resumes
+var		QR_CODE_ON = false;
 
 // VARIABLES //*******************************************************************************************************************************************
 
@@ -62,8 +63,16 @@ $.getJSON(CURRENT_DIR + "exhibitinfo.json", function(json){
 	TITLE_DISPLAY_INTERVAL = exhibitInfo.title_display_interval; 
 	SLIDE_ADVANCE_INTERVAL = exhibitInfo.slide_advance_time;
 	OVERLAY_TIMEOUT = exhibitInfo.overlay_timeout;
-	document.title = exhibitInfo.title;
+	QR_CODE_ON = exhibitInfo.qr_code_on;
+	var title = exhibitInfo.title + " (mediawall)"
+	document.title = title;
+	var qrCodeQuery = {width: 96,height: 96,text: ""}; qrCodeQuery.text = exhibitInfo.remoteclient_url;
+	if (QR_CODE_ON){
+		jQuery('.qr_code_image').qrcode(qrCodeQuery);
+		document.getElementById("qr_code").style.opacity = 1;
+	}
 });
+
 
 //preload images - slides and title images
 function preload(){
@@ -137,9 +146,9 @@ function update(){
 		}
 
 		//update css div opacity - will dim main slides when title or overlay is displayed
-		elementLeft.style.opacity = String(slideAlpha[0] * (1-titleAlpha) * (1-overlayAlpha[0]*0.85)); 
-		elementRight.style.opacity = String(slideAlpha[1] * (1-titleAlpha) * (1-overlayAlpha[0]*0.85));
-		elementFull.style.opacity = String(titleAlpha * (1-overlayAlpha[0]*0.85));
+		elementLeft.style.opacity = String(slideAlpha[0] * (1-titleAlpha) * (1-overlayAlpha[0]*0.9)); 
+		elementRight.style.opacity = String(slideAlpha[1] * (1-titleAlpha) * (1-overlayAlpha[0]*0.9));
+		elementFull.style.opacity = String(titleAlpha * (1-overlayAlpha[0]*0.9));
 		elementOverlayLeft.style.opacity = String(overlayAlpha[0]);
 		elementOverlayRight.style.opacity = String(overlayAlpha[1]);
 

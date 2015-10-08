@@ -3,7 +3,7 @@ var socket = io.connect();
 // DEFINES  //*******************************************************************************************************************************************
 
 var 	CURRENT_DIR = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/')) + "/";
-var		FRAME_RATE = 60;
+var		FRAME_RATE = 30;
 
 // DEFINES  //*******************************************************************************************************************************************
 
@@ -21,8 +21,9 @@ var isPreloaded = false;
 $.getJSON(CURRENT_DIR + "slides.json", function(json){slidesInfo = json;});
 $.getJSON(CURRENT_DIR + "exhibitinfo.json", function(json){
 	exhibitInfo = json; 
-	document.title = exhibitInfo.title;
-	document.getElementById("title").innerHTML = exhibitInfo.title;
+	var title = exhibitInfo.title + " (remote client)"
+	document.title = title;
+	document.getElementById("title").innerHTML = title;
 ;});
 
 //preload images

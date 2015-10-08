@@ -4,4 +4,4 @@
 
 **Web-Based Slideshow w/ Remote Client** 
 
-**PushBrowser** - Awesomium/Chromium-based web browser, displayed fullscreen with no menus, and a QR Code overlay. Separate app sends URLs to the browser, which loads them as they come.  Perfect for use on public displays in kiosk mode.
+**PushBrowser** - Chromium-based web browser (Awesonium), displays fullscreen with no menus, and a QR Code overlay. Separate app sends URLs to the browser, which loads them as they come.  Perfect for use on public displays in kiosk mode.

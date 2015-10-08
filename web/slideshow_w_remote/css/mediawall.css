@@ -19,22 +19,26 @@ div {
 
 canvas {display:block;}
 
-#label_left{left: 0%; width: 25%; top: 67%; height: 33%; z-index: 1;}
-#label_right{left: 75%; width: 25%; top: 67%; height: 33%;  z-index: 1;}
-#label_overlay{left: 33%; width: 33%; top: 83%; height: 17%;  z-index: 3;}
-#label_overlay_left{left: 0%; width: 25%; top: 67%; height: 33%; z-index: 3;}
-#label_overlay_right{left: 75%; width: 25%; top: 67%; height: 33%;  z-index: 3;}
+#qr_code {width: 100%;height: 100%; opacity: 0;}
+#qr_code_left{position: absolute; left: 10px; top: 45%; z-index: 5;  background-color: white; padding: 8px;}
+#qr_code_right{ position: absolute; right: 10px; top: 45%; z-index: 5; background-color: white; padding: 8px;}
+.qr_code_image{width:96px; height:96px;}
+
+
+#label_left{left: 0%; width: 20%; top: 67%; height: 33%; z-index: 1;}
+#label_right{left: 80%; width: 20%; top: 67%; height: 33%;  z-index: 1;}
+#label_overlay_left{left: 0%; width: 20%; top: 67%; height: 33%; z-index: 3;}
+#label_overlay_right{left: 80%; width: 20%; top: 67%; height: 33%;  z-index: 3;}
 
 #left{left: 0%; opacity: 0; z-index: 1;}
 #right{left: 50%; opacity: 0; z-index: 1;}
 #full{left: 0%; opacity: 0; z-index: 2;}
-#overlay{left: 0%; opacity: 0; z-index: 3;}
 #overlay_left{left: 0%; opacity: 0; z-index: 3;}
 #overlay_right{left: 50%; opacity: 0; z-index: 3;}
 
 .label{background-color:black; opacity:0.75;}
 .bkgrd{width: 100%; height: 100%; }
-.title{padding: 5px; margin: 5px; font-size: xx-small; color:white;}
-.author{padding: 5px; margin: 5px; top: 21px; font-size: xx-small; font-style: italic; }
-.caption{padding: 5px; margin: 5px; top: 42px; font-size: xx-small;}
+.title{padding: 5px; margin: 5px; font-size: small; color:white;}
+.author{padding: 5px; margin: 5px; top: 30px; font-size: small; font-style: italic; }
+.caption{padding: 5px; margin: 5px; top: 60px; font-size: small;}
 

@@ -6,9 +6,11 @@
 	<link rel="stylesheet" href="css/mediawall.css" type="text/css"/>
     <script type="text/javascript" src="js/libs/jquery/jquery-1.9.1.min.js"></script>
  	<script type="text/javascript" src="/socket.io/socket.io.js"></script>
+ 	<script type="text/javascript" src="js/libs/jquery/jquery.qrcode.min.js"></script>
 	<script type="text/javascript" src="mediawall.js"></script>
 </head>
 <body>
+	<div id="qr_code"><div id="qr_code_left" class="qr_code_image"></div><div id="qr_code_right" class="qr_code_image"></div></div>
 	<div id="left">
 		<div id="label_left" class="label"><div class="title"></div><div class="author"></div><div class="caption"></div><div class="bkgrd"></div></div>
 		<canvas id="canvas_left"></canvas>
