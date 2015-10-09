@@ -2,7 +2,7 @@
 
 Use these files to develop a html5/canvas/js slideshow project, that can be displayed, without major work, on the Link Mediawall.  The remote clients, for example a smartphone w/ QR code reader, can access the exhibit via a qr code displayed on the Mediawall.  A slide gallery will appear on the remote client's screen, and the user can request specific slides be played on the Mediawall.  The Mediawall will revert to an automated slideshow function when not being actively controlled by any remote client, for a specified period of time.
 
-This project demonstrates how socket.io/websockets messages are passed between two web pages, allowing one to serve as an interface for the other. And can be used as a template for more complex development and interfaces.
+This project demonstrates how socket.io/websockets messages are passed between two web pages, allowing one to serve as an interface for the other, and can be used as a template for more complex development, content and interfaces.
 
 Download these files to your local machine for development, and substitute your own content and make modifications as desired.
 
