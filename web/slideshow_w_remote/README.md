@@ -4,7 +4,7 @@ Use these files to develop a html5/canvas/js slideshow project, that can be disp
 
 This project demonstrates how socket.io/websockets messages are passed between two web pages, allowing one to serve as an interface for the other. And can be used as a template for more complex development and interfaces.
 
-Download these files to your local machine for development.
+Download these files to your local machine for development, and substitute your own content and make modifications as desired.
 
 This slideshow, and all the related files, need to be hosted and served by a machine with node.js installed, including the connect and socket.io node modules (installed via npm, node package manager, which comes pre-bundled with node.js). Refer to https://nodejs.org for installation instructions.
 
